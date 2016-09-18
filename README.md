@@ -1,14 +1,11 @@
-# Yasnippet official snippet collections
+# Yasnippet unofficial snippet collections
 
 [![Join the chat at https://gitter.im/AndreaCrotti/yasnippet-snippets](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/AndreaCrotti/yasnippet-snippets?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-This repository contains the official snippets for [yasnippet](http://github.com/capitaomorte/yasnippet), as you can see from the git submodules link.
+This repository contains custom snippets for [yasnippet](http://github.com/capitaomorte/yasnippet) If you want to get the official snippets, please check out this repository: https://github.com/AndreaCrotti/yasnippet-snippets
 
 # How to install
 
-There are two options, if you have checked out *yasnippet* already, the only thing you need to do is to run `git submodule update --init`
-and it will checkout automatically this repository, at the last version it was synchronized too.
-
-Otherwise if you want the latest and greatest snippets collection proceed as follows:
+If you want to use this custom snippets collection proceed as follows:
 
 1. clone this repository
 2. add to your .emacs the following
@@ -19,8 +16,7 @@ Otherwise if you want the latest and greatest snippets collection proceed as fol
 
 # Contributing
 
-This repository has now become the default snippets repository (as a submodule) in yasnippet.
-So if you have any useful snippets for any language or framework please feel free to contribute.
+If you have any useful snippets for any language or framework please feel free to contribute.
 
 To study the current snippets I suggest to use `M-x yas-describe-tables`
 which will gave a table representation of all the snippets available in the current mode.
